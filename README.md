@@ -3,6 +3,8 @@
 # My Portfolio Site
 
 ##  To-Do
+- add global css and move * rules from termial css to it
+- use css reset
 - add storybook plugin
 - create analytics on google
 - add analytics plugin
