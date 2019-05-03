@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-storybook",
-  "description": "Gatsby Storybook Starter",
+  "name": "gatsby-portfolio",
+  "description": "My portfolio built on Gatsby and Contently",
   "version": "1.0.0",
-  "author": "Marko Radak <mail@markoradak.com>",
+  "author": "Anand Upadhyay <usma1000@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/markoradak/gatsby-starter-storybook"
+    "url": "https://github.com/usma1000/gatsby-portfolio"
   },
   "scripts": {
     "build": "gatsby build",
