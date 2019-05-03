@@ -4,7 +4,7 @@ import styles from './image.module.css';
 import SVG from '../assets/images/gatsby+storybook.svg';
 
 const Image = () => (
-  <img src={SVG} className={styles.base} alt="image" />
+  <img src={SVG} className={styles.base} alt="fix me" />
 );
 
 export default Image;
