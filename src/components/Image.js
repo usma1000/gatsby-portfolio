@@ -1,15 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+import styles from './image.module.css';
 
 import SVG from '../assets/images/gatsby+storybook.svg';
 
-const Img = styled.img`
-  width: 100%;
-  max-width: 600px;
-`;
-
 const Image = () => (
-  <Img src={SVG} alt="GatsbyJS + Storybook" />
+  <img src={SVG} className={styles.base} alt="image" />
 );
 
 export default Image;
