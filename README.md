@@ -3,11 +3,9 @@
 # My Portfolio Site
 
 ##  To-Do
-- update package.json with my info
 - add storybook plugin
 - create analytics on google
 - add analytics plugin
-- eslint
 - unit testing
 - create styleguide on storybook
 - set up helmet and SEO
