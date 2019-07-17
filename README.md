@@ -3,16 +3,18 @@
 # My Portfolio Site
 
 ##  To-Do
-- add global css and move * rules from termial css to it
-- use css reset
-- add storybook plugin
-- create analytics on google
-- add analytics plugin
-- unit testing
+- add css autoprefixer to css modules
+- add and configure storybook plugin
 - create styleguide on storybook
+- create analytics on google
+- add gatsby-plugin-google-analytics
+- figure out unit testing
 - set up helmet and SEO
 - add contently plugin
 - set up contently
+- add hero section from codepen
+- look into gatsby-plugin-transition-link for page transitions
+- add and configure gatsby-plugin-sitemap
 - plan out rest of build todos
 
 ## Quick start
