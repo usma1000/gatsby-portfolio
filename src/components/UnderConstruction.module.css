@@ -1,0 +1,16 @@
+.container {
+    color: #fff;
+    background: linear-gradient(135deg, #9cdc78, #74dcb0);
+    text-align: center;
+    padding: 1em;
+    border-bottom: 1px solid #52c192;
+    border-radius: 2em;
+    margin: 1em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    font-size: 1.75em;
+    text-shadow: 0 1px 1px #666;
+    margin-bottom: 0;
+}

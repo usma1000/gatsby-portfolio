@@ -1,8 +1,4 @@
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-
-.terminal, .terminal:before, .terminal:after, p:after {
+.terminal, .terminal:before, .terminal:after, .text:after {
     position: absolute;
 }
 
@@ -38,20 +34,20 @@
     line-height: 20px;
 }
 
-p {
+.text {
     font-family: monospace;
     color: #fff;
     font-size: 22px;
 }
 
-p:before {
+.text:before {
     content: "$";
     margin-right: 8px;
     opacity: 0.5;
     line-height: 18px;
 }
 
-p:after {
+.text:after {
     -webkit-animation: blink 1s linear 1s infinite;
     animation: blink 1s linear 1s infinite;
     content: " ";

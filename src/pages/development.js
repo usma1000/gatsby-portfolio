@@ -3,7 +3,7 @@ import React from 'react';
 // import Img from 'gatsby-image';
 
 import Layout from '../components/Layout';
-import UnderConstruction from '../components/UnderConstruction';
+import Terminal from '../components/Terminal';
 
 // export const query = graphql`
 //   query {
@@ -17,11 +17,11 @@ import UnderConstruction from '../components/UnderConstruction';
 //   }
 // `;
 
-const IndexPage = ({ data }) => (
-  <Layout>
-    <UnderConstruction text="This website is under active development." />
-    {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
-  </Layout>
+const DevelopmentPage = ({ data }) => (
+    <Layout>
+        <Terminal text="Hello World..." />
+        {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
+    </Layout>
 );
 
-export default IndexPage;
+export default DevelopmentPage;

@@ -4,7 +4,7 @@ import style from './Terminal.module.css';
 
 const Terminal = ({ text }) => (
     <div className={style.terminal}>
-        <p>{text}</p>
+        <p className={style.text}>{text}</p>
     </div>
 );
 
