@@ -6,16 +6,16 @@
 - add css autoprefixer to css modules
 - add and configure storybook plugin
 - create styleguide on storybook
-- create analytics on google
-- add gatsby-plugin-google-analytics
 - figure out unit testing
 - set up helmet and SEO
 - add contently plugin
 - set up contently
 - add hero section from codepen
 - look into gatsby-plugin-transition-link for page transitions
+- change pageTransitionDelay in google analytics in gatsby-config to account for page transition
 - add and configure gatsby-plugin-sitemap
 - plan out rest of build todos
+- figure out deprecation warnings
 
 ## Quick start
 `gatsby develop`

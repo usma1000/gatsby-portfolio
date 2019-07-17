@@ -16,6 +16,17 @@ module.exports = {
         path: `${__dirname}/src/`,
         name: 'src',
       },
+    }, {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-144013936-1',
+        head: true,
+        anonymize: false,
+        respectDNT: true,
+        exclude: ['/preview/**'],
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+      },
     },
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
