@@ -17,7 +17,6 @@
 - create styleguide on storybook
 
 ## Site Development To-Do's
-- add navbar links array in gatsby-config and query it in Navbar.js
 - hero section 3d morphing particle array from codepen?
 
 ## Quick start
