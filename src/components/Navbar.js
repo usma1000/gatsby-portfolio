@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 import style from './Navbar.module.css';
 
@@ -9,7 +10,9 @@ const Navbar = ({ menuLinks }) => (
       <ul>
         {menuLinks.map(link => (
           <li key={link.name}>
-            <Link to={link.link}>{link.name}</Link>
+            <AniLink to={link.link} paintDrip duration={0.5}>
+              {link.name}
+            </AniLink>
           </li>
         ))}
       </ul>
