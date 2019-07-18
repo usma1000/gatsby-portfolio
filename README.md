@@ -2,20 +2,23 @@
 
 # My Portfolio Site
 
-##  To-Do
-- add css autoprefixer to css modules
-- add and configure storybook plugin
-- create styleguide on storybook
+##  Configuration To-Do's
 - figure out unit testing
+- arrange components into subdirectories
 - set up helmet and SEO
 - add contently plugin
 - set up contently
-- add hero section from codepen
 - look into gatsby-plugin-transition-link for page transitions
 - change pageTransitionDelay in google analytics in gatsby-config to account for page transition
 - add and configure gatsby-plugin-sitemap
-- plan out rest of build todos
 - figure out deprecation warnings
+- add css autoprefixer to css modules?
+- add and configure storybook plugin?
+- create styleguide on storybook
+
+## Site Development To-Do's
+- add navbar links array in gatsby-config and query it in Navbar.js
+- hero section 3d morphing particle array from codepen?
 
 ## Quick start
 `gatsby develop`
