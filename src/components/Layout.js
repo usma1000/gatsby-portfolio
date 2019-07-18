@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
+
+import Navbar from './Navbar';
 import './globals.css';
 
 const Layout = ({ children }) => (
@@ -18,9 +20,11 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Helmet title={data.site.siteMetadata.title}>
+          {/* eslint-disable-next-line max-len */}
           <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Source+Code Pro:400|Lora:400" rel="stylesheet" />
         </Helmet>
         <div>
+          <Navbar />
           {children}
         </div>
       </>
