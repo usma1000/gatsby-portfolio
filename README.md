@@ -2,7 +2,9 @@
 
 # My Portfolio Site
 
-##  Configuration To-Do's
+## To-Do's
+
+### Configuration 
 - figure out unit testing
 - arrange components into subdirectories
 - set up helmet and SEO
@@ -16,7 +18,8 @@
 - add and configure storybook plugin?
 - create styleguide on storybook
 
-## Site Development To-Do's
+### Site Development To-Do's
+- style the navbar and [transition color](https://transitionlink.tylerbarnes.ca/docs/anilink/)
 - hero section 3d morphing particle array from codepen?
 
 ## Quick start
