@@ -3,7 +3,6 @@ import React from 'react';
 // import Img from 'gatsby-image';
 
 import Layout from '../components/Layout';
-import UnderConstruction from '../components/UnderConstruction';
 
 // export const query = graphql`
 //   query {
@@ -19,8 +18,8 @@ import UnderConstruction from '../components/UnderConstruction';
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <UnderConstruction text="This website is under active development." />
     {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
+    <h1>Anand Upadhyay</h1>
   </Layout>
 );
 

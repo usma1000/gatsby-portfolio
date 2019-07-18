@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: 'Anand Upadhyay Portfolio',
+    menuLinks: [
+      {
+        name: 'Home',
+        link: '/',
+      },
+      {
+        name: 'Development',
+        link: '/development',
+      },
+    ],
   },
   plugins: [
     {

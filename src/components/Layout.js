@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
+import UnderConstruction from './UnderConstruction';
 import Navbar from './Navbar';
 import './globals.css';
 
@@ -13,7 +14,11 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
-          }
+            menuLinks {
+              name
+              link
+            }
+          } 
         }
       }
     `}
@@ -24,7 +29,8 @@ const Layout = ({ children }) => (
           <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Source+Code Pro:400|Lora:400" rel="stylesheet" />
         </Helmet>
         <div>
-          <Navbar />
+          <UnderConstruction text="This website is under active development." />
+          <Navbar menuLinks={data.site.siteMetadata.menuLinks} />
           {children}
         </div>
       </>
