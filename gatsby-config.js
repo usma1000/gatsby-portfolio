@@ -34,8 +34,7 @@ module.exports = {
         anonymize: false,
         respectDNT: true,
         exclude: ['/preview/**'],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
+        pageTransitionDelay: 500,
       },
     },
     'gatsby-plugin-react-helmet',
