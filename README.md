@@ -7,20 +7,26 @@
 ### Configuration 
 - figure out unit testing
 - arrange components into subdirectories
-- set up helmet and SEO
 - add contently plugin
 - set up contently
 - look into gatsby-plugin-transition-link for page transitions
-- change pageTransitionDelay in google analytics in gatsby-config to account for page transition
-- add and configure gatsby-plugin-sitemap
 - figure out deprecation warnings
 - add css autoprefixer to css modules?
 - add and configure storybook plugin?
 - create styleguide on storybook
 
-### Site Development To-Do's
+### Site Development
 - style the navbar and [transition color](https://transitionlink.tylerbarnes.ca/docs/anilink/)
 - hero section 3d morphing particle array from codepen?
+- plan content for all pages
+- create footer component
+- upload CV and write it in form of json?
+
+### Marketing
+- add and configure gatsby-plugin-sitemap
+- test google analytics
+- set up blog
+- set up helmet and SEO
 
 ## Quick start
 `gatsby develop`

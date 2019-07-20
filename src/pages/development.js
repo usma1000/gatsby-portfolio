@@ -19,7 +19,8 @@ import Terminal from '../components/Terminal';
 
 const DevelopmentPage = ({ data }) => (
     <Layout>
-        <Terminal text="Hello World..." />
+      <h1>Travis is a piece of shit</h1>
+      <Terminal text="Hello World..." />
         {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
     </Layout>
 );

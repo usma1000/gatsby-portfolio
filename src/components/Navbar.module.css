@@ -1,3 +1,10 @@
-.container {
-    background-color: #999999;
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  /* color: white; */
+  font-size: 2em;
+  padding: 0 .5em;
 }

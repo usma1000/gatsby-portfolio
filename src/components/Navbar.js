@@ -5,19 +5,17 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import style from './Navbar.module.css';
 
 const Navbar = ({ menuLinks }) => (
-  <div className={style.container}>
-    <nav>
-      <ul>
-        {menuLinks.map(link => (
-          <li key={link.name}>
-            <AniLink to={link.link} paintDrip duration={0.5}>
-              {link.name}
-            </AniLink>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  </div>
+  <nav role="navigation">
+    <ul className={style.list}>
+      {menuLinks.map(link => (
+        <li key={link.name}>
+          <AniLink className={style.link} to={link.link} paintDrip duration={0.5}>
+            {link.name}
+          </AniLink>
+        </li>
+      ))}
+    </ul>
+  </nav>
 );
 
 export default Navbar;
