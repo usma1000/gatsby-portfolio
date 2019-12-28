@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Star</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="25.0958335 39.0660624 10.4012021 46.7914873 13.207627 30.4287748 1.31942054 18.8406375 17.7485178 16.45335 25.0958335 1.5660624 32.4431491 16.45335 48.8722464 18.8406375 36.9840399 30.4287748 39.7904648 46.7914873"></polygon>
+        <filter x="-22.4%" y="-19.6%" width="144.9%" height="139.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.635294118   0 0 0 0 0.121568627   0 0 0 0 0.121568627  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Star" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(75.500000, 75.057692) rotate(-30.000000) translate(-75.500000, -75.057692) translate(49.500000, 49.057692)">
+            <g id="Star">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#D64642" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#F5D099" stroke-width="3" d="M25.0958335,40.760726 L8.40900561,49.5335106 L11.5959061,30.9524547 L-1.90402117,17.7932778 L16.7524195,15.0823383 L25.0958335,-1.82326479 L33.4392474,15.0823383 L52.0956881,17.7932778 L38.5957608,30.9524547 L41.7826613,49.5335106 L25.0958335,40.760726 Z"></path>
+                <path stroke="#A21F1F" stroke-width="3" d="M37.7982682,44.049464 L35.372319,29.905095 L45.6488046,19.8879972 L31.4470508,17.8243616 L25.0958335,4.95538959 L18.7446161,17.8243616 L4.54286226,19.8879972 L14.8193479,29.905095 L12.3933987,44.049464 L25.0958335,37.3713988 L37.7982682,44.049464 Z" stroke-linejoin="square"></path>
+            </g>
+            <g id="Inner-Shapes" transform="translate(0.528846, 0.950037)" fill="#A21F1F">
+                <polygon id="Path-6" points="24.2168125 -2.77555756e-15 24.2168125 25 31.7910699 15"></polygon>
+                <polygon id="Path-6-Copy" transform="translate(37.375889, 24.686366) rotate(72.000000) translate(-37.375889, -24.686366) " points="33.6805405 12.0744218 33.6077948 37.29831 41.143984 27.186931"></polygon>
+                <polygon id="Path-6-Copy-2" transform="translate(28.602445, 37.317354) rotate(144.000000) translate(-28.602445, -37.317354) " points="24.7928326 24.774595 24.9105376 49.8601127 32.4120577 39.8612171"></polygon>
+                <polygon id="Path-6-Copy-3" transform="translate(13.771845, 32.914990) rotate(216.000000) translate(-13.771845, -32.914990) " points="10.091708 20.3722307 9.97400295 45.4577484 17.5696871 35.3882298"></polygon>
+                <polygon id="Path-6-Copy-4" transform="translate(13.366314, 17.581291) rotate(288.000000) translate(-13.366314, -17.581291) " points="9.59094521 4.96934662 9.66369091 30.1932349 17.1416836 20.1255033"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
