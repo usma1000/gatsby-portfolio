@@ -3,6 +3,7 @@ import React from 'react';
 // import Img from 'gatsby-image';
 
 import Layout from '../components/Layout';
+import HomepageHero from '../components/HomeHero';
 
 // export const query = graphql`
 //   query {
@@ -16,11 +17,15 @@ import Layout from '../components/Layout';
 //   }
 // `;
 
+// eslint-disable-next-line no-unused-vars
 const IndexPage = ({ data }) => (
-  <Layout>
-    {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
-    <h1>Anand Upadhyay</h1>
-  </Layout>
+  <>
+    <HomepageHero />
+    <Layout>
+      {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
+      <h1>Anand Upadhyay</h1>
+    </Layout>
+  </>
 );
 
 export default IndexPage;
