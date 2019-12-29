@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  background-image: radial-gradient(50% 100%, #F6625E 50%, #C7312D 100%);
+  background: radial-gradient(circle, rgba(246, 98, 94, 1) 0%, rgba(246, 98, 94, 1) 50%, rgba(199, 49, 45, 1) 100%);
   border: 20px solid #F5D099;
   box-sizing: border-box;
   height: 100vh;
@@ -25,4 +25,33 @@
   to {
     background-position: 10000px -10000px;
   }
+}
+
+.titleContainer {
+  text-align: center;
+  padding: 20vh 10vw;
+}
+
+.titleTop {
+  margin-bottom: 5vh;
+  transform: rotate(3deg);
+}
+
+.titleBottom {
+  transform: rotate(-2deg);
+}
+
+.title {
+  font-size: 5vw;
+  font-weight: bold;
+  color: #801010;
+  background-color: #f5d099;
+  display: inline;
+  padding: 0 40px;
+  box-shadow: rgba(131, 47, 47, 0.5) 6px 5px 4px;
+}
+
+.reverse {
+  transform: scaleX(-1);
+  display: inline-block;
 }
